@@ -35,6 +35,7 @@ export default function Footer() {
             <Link href="/impacts">Impacts</Link>
             <Link href="/solutions">Solutions</Link>
             <Link href="/risk-map">Risk Map</Link>
+            <Link href="/infographic">Infographic</Link>
             <Link href="/sources">Sources</Link>
           </div>
         </div>

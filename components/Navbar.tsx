@@ -7,6 +7,7 @@ const links = [
   { href: "/impacts", label: "Impacts" },
   { href: "/solutions", label: "Solutions" },
   { href: "/risk-map", label: "Risk Map" },
+  { href: "/infographic", label: "Infographic" },
   { href: "/sources", label: "Sources" },
 ];
 
