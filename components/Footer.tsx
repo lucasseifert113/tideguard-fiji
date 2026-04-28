@@ -37,7 +37,19 @@ export default function Footer() {
             <Link href="/risk-map">Risk Map</Link>
             <Link href="/infographic">Infographic</Link>
             <Link href="/sources">Sources</Link>
+            <a
+              href="https://www.paypal.biz/seifertsites"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="donate-footer-link"
+            >
+              Donate
+            </a>
           </div>
+        </div>
+
+        <div className="footer-copyright">
+          &copy; 2026 TideGuard &mdash; Lucas Seifert &amp; Carson Loshaw, UW-Platteville
         </div>
       </div>
     </footer>

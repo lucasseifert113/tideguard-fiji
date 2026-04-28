@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "../../components/PageHero";
 import PageShell from "../../components/PageShell";
+
+export const metadata: Metadata = {
+  title: "Infographic",
+  description:
+    "SDG 13 Climate Action infographic showing how coastal communities in Fiji are affected by sea-level rise and climate change.",
+};
 
 export default function InfographicPage() {
   return (

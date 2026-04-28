@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "../../components/PageHero";
 import PageShell from "../../components/PageShell";
+
+export const metadata: Metadata = {
+  title: "Community Impacts",
+  description:
+    "Climate change impacts Fiji's coastal communities beyond physical damage. Understand the social, economic, and cultural pressures created by sea-level rise and coastal hazards.",
+};
 
 export default function ImpactsPage() {
   return (

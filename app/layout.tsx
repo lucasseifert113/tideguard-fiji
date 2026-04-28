@@ -5,7 +5,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata: Metadata = {
-  title: "TideGuard",
+  title: {
+    template: "%s | TideGuard",
+    default: "TideGuard — Coastal Climate Risk in Fiji",
+  },
   description:
     "A clean, modern educational website about coastal climate risk, resilience, and adaptation in Fiji.",
 };

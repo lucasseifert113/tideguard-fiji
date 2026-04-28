@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 const links = [
   { href: "/", label: "Home" },
@@ -41,9 +42,21 @@ export default function Navbar() {
             ))}
           </nav>
 
-          <Link href="/risk-map" className="button-secondary">
-            Explore Risk
-          </Link>
+          <div className="nav-actions">
+            <Link href="/risk-map" className="button-secondary">
+              Explore Risk
+            </Link>
+            <a
+              href="https://www.paypal.biz/seifertsites"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button-primary"
+            >
+              Donate
+            </a>
+          </div>
+
+          <MobileNav />
         </div>
       </div>
     </header>

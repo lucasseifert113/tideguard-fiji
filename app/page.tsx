@@ -129,6 +129,30 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <section className="section-block donate-section">
+        <div className="content-card glass-panel" style={{ textAlign: "center", padding: "48px 24px" }}>
+          <div className="section-kicker">Support</div>
+          <h2 className="section-title" style={{ marginTop: 12 }}>
+            Help protect coastal communities
+          </h2>
+          <p className="body-copy" style={{ marginTop: 18, maxWidth: 640, margin: "18px auto 0" }}>
+            Donations support climate education, community resilience research,
+            and tools that make coastal risk easier to understand and act on.
+            Every contribution helps keep this work accessible and growing.
+          </p>
+          <div style={{ marginTop: 28 }}>
+            <a
+              href="https://www.paypal.biz/seifertsites"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="donate-button"
+            >
+              Donate via PayPal
+            </a>
+          </div>
+        </div>
+      </section>
     </PageShell>
   );
 }

@@ -1,9 +1,16 @@
 "use client";
 
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import PageHero from "../../components/PageHero";
 import PageShell from "../../components/PageShell";
 import { coastalRiskLocations } from "../../lib/coastal-risk-data";
+
+export const metadata: Metadata = {
+  title: "Coastal Risk Map",
+  description:
+    "Interactive map of Fiji's coastal communities and climate risk zones. Explore sea-level rise, flooding, and erosion concerns across different regions.",
+};
 
 const CoastalRiskMap = dynamic(() => import("../../components/CoastalRiskMap"), {
   ssr: false,

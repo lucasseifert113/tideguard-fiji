@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "../../components/PageHero";
 import PageShell from "../../components/PageShell";
+
+export const metadata: Metadata = {
+  title: "Solutions",
+  description:
+    "Explore climate action and resilience solutions for Fiji's coastal communities. From nature-based protection to adaptation planning and planned relocation.",
+};
 
 export default function SolutionsPage() {
   return (

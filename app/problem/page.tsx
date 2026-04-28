@@ -1,6 +1,13 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "../../components/PageHero";
 import PageShell from "../../components/PageShell";
+
+export const metadata: Metadata = {
+  title: "The Problem",
+  description:
+    "Fiji's coastal communities face overlapping risks of sea-level rise, flooding, erosion, and saltwater intrusion. Understand the climate pressures reshaping coastlines and threatening livelihoods.",
+};
 
 export default function ProblemPage() {
   return (
